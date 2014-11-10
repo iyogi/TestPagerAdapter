@@ -1,0 +1,425 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		76CAA1B41A0FB0A20065D6F4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 76CAA1B31A0FB0A20065D6F4 /* main.m */; };
+		76CAA1B71A0FB0A20065D6F4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 76CAA1B61A0FB0A20065D6F4 /* AppDelegate.m */; };
+		76CAA1BA1A0FB0A20065D6F4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76CAA1B91A0FB0A20065D6F4 /* ViewController.m */; };
+		76CAA1BF1A0FB0A20065D6F4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76CAA1BE1A0FB0A20065D6F4 /* Images.xcassets */; };
+		76CAA1C21A0FB0A20065D6F4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 76CAA1C01A0FB0A20065D6F4 /* LaunchScreen.xib */; };
+		76CAA1CE1A0FB0A20065D6F4 /* PagerAdapterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 76CAA1CD1A0FB0A20065D6F4 /* PagerAdapterTests.m */; };
+		76CAA1D91A10033F0065D6F4 /* InfoBlockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76CAA1D81A10033F0065D6F4 /* InfoBlockViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		76CAA1C81A0FB0A20065D6F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 76CAA1A61A0FB0A20065D6F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 76CAA1AD1A0FB0A20065D6F4;
+			remoteInfo = PagerAdapter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		76CAA1AE1A0FB0A20065D6F4 /* PagerAdapter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PagerAdapter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		76CAA1B21A0FB0A20065D6F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76CAA1B31A0FB0A20065D6F4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		76CAA1B51A0FB0A20065D6F4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		76CAA1B61A0FB0A20065D6F4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		76CAA1B81A0FB0A20065D6F4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		76CAA1B91A0FB0A20065D6F4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		76CAA1BE1A0FB0A20065D6F4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		76CAA1C11A0FB0A20065D6F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		76CAA1C71A0FB0A20065D6F4 /* PagerAdapterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PagerAdapterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		76CAA1CC1A0FB0A20065D6F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76CAA1CD1A0FB0A20065D6F4 /* PagerAdapterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PagerAdapterTests.m; sourceTree = "<group>"; };
+		76CAA1D71A10033F0065D6F4 /* InfoBlockViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoBlockViewController.h; sourceTree = "<group>"; };
+		76CAA1D81A10033F0065D6F4 /* InfoBlockViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoBlockViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		76CAA1AB1A0FB0A20065D6F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76CAA1C41A0FB0A20065D6F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		76CAA1A51A0FB0A20065D6F4 = {
+			isa = PBXGroup;
+			children = (
+				76CAA1B01A0FB0A20065D6F4 /* PagerAdapter */,
+				76CAA1CA1A0FB0A20065D6F4 /* PagerAdapterTests */,
+				76CAA1AF1A0FB0A20065D6F4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		76CAA1AF1A0FB0A20065D6F4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				76CAA1AE1A0FB0A20065D6F4 /* PagerAdapter.app */,
+				76CAA1C71A0FB0A20065D6F4 /* PagerAdapterTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		76CAA1B01A0FB0A20065D6F4 /* PagerAdapter */ = {
+			isa = PBXGroup;
+			children = (
+				76CAA1B51A0FB0A20065D6F4 /* AppDelegate.h */,
+				76CAA1B61A0FB0A20065D6F4 /* AppDelegate.m */,
+				76CAA1B81A0FB0A20065D6F4 /* ViewController.h */,
+				76CAA1B91A0FB0A20065D6F4 /* ViewController.m */,
+				76CAA1BE1A0FB0A20065D6F4 /* Images.xcassets */,
+				76CAA1C01A0FB0A20065D6F4 /* LaunchScreen.xib */,
+				76CAA1B11A0FB0A20065D6F4 /* Supporting Files */,
+				76CAA1D71A10033F0065D6F4 /* InfoBlockViewController.h */,
+				76CAA1D81A10033F0065D6F4 /* InfoBlockViewController.m */,
+			);
+			path = PagerAdapter;
+			sourceTree = "<group>";
+		};
+		76CAA1B11A0FB0A20065D6F4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				76CAA1B21A0FB0A20065D6F4 /* Info.plist */,
+				76CAA1B31A0FB0A20065D6F4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		76CAA1CA1A0FB0A20065D6F4 /* PagerAdapterTests */ = {
+			isa = PBXGroup;
+			children = (
+				76CAA1CD1A0FB0A20065D6F4 /* PagerAdapterTests.m */,
+				76CAA1CB1A0FB0A20065D6F4 /* Supporting Files */,
+			);
+			path = PagerAdapterTests;
+			sourceTree = "<group>";
+		};
+		76CAA1CB1A0FB0A20065D6F4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				76CAA1CC1A0FB0A20065D6F4 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		76CAA1AD1A0FB0A20065D6F4 /* PagerAdapter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76CAA1D11A0FB0A20065D6F4 /* Build configuration list for PBXNativeTarget "PagerAdapter" */;
+			buildPhases = (
+				76CAA1AA1A0FB0A20065D6F4 /* Sources */,
+				76CAA1AB1A0FB0A20065D6F4 /* Frameworks */,
+				76CAA1AC1A0FB0A20065D6F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PagerAdapter;
+			productName = PagerAdapter;
+			productReference = 76CAA1AE1A0FB0A20065D6F4 /* PagerAdapter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		76CAA1C61A0FB0A20065D6F4 /* PagerAdapterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76CAA1D41A0FB0A20065D6F4 /* Build configuration list for PBXNativeTarget "PagerAdapterTests" */;
+			buildPhases = (
+				76CAA1C31A0FB0A20065D6F4 /* Sources */,
+				76CAA1C41A0FB0A20065D6F4 /* Frameworks */,
+				76CAA1C51A0FB0A20065D6F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				76CAA1C91A0FB0A20065D6F4 /* PBXTargetDependency */,
+			);
+			name = PagerAdapterTests;
+			productName = PagerAdapterTests;
+			productReference = 76CAA1C71A0FB0A20065D6F4 /* PagerAdapterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		76CAA1A61A0FB0A20065D6F4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = test;
+				TargetAttributes = {
+					76CAA1AD1A0FB0A20065D6F4 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					76CAA1C61A0FB0A20065D6F4 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 76CAA1AD1A0FB0A20065D6F4;
+					};
+				};
+			};
+			buildConfigurationList = 76CAA1A91A0FB0A20065D6F4 /* Build configuration list for PBXProject "PagerAdapter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 76CAA1A51A0FB0A20065D6F4;
+			productRefGroup = 76CAA1AF1A0FB0A20065D6F4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				76CAA1AD1A0FB0A20065D6F4 /* PagerAdapter */,
+				76CAA1C61A0FB0A20065D6F4 /* PagerAdapterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		76CAA1AC1A0FB0A20065D6F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76CAA1C21A0FB0A20065D6F4 /* LaunchScreen.xib in Resources */,
+				76CAA1BF1A0FB0A20065D6F4 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76CAA1C51A0FB0A20065D6F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		76CAA1AA1A0FB0A20065D6F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76CAA1BA1A0FB0A20065D6F4 /* ViewController.m in Sources */,
+				76CAA1B71A0FB0A20065D6F4 /* AppDelegate.m in Sources */,
+				76CAA1D91A10033F0065D6F4 /* InfoBlockViewController.m in Sources */,
+				76CAA1B41A0FB0A20065D6F4 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76CAA1C31A0FB0A20065D6F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76CAA1CE1A0FB0A20065D6F4 /* PagerAdapterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		76CAA1C91A0FB0A20065D6F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 76CAA1AD1A0FB0A20065D6F4 /* PagerAdapter */;
+			targetProxy = 76CAA1C81A0FB0A20065D6F4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		76CAA1C01A0FB0A20065D6F4 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				76CAA1C11A0FB0A20065D6F4 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		76CAA1CF1A0FB0A20065D6F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		76CAA1D01A0FB0A20065D6F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		76CAA1D21A0FB0A20065D6F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PagerAdapter/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		76CAA1D31A0FB0A20065D6F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PagerAdapter/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		76CAA1D51A0FB0A20065D6F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PagerAdapterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PagerAdapter.app/PagerAdapter";
+			};
+			name = Debug;
+		};
+		76CAA1D61A0FB0A20065D6F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PagerAdapterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PagerAdapter.app/PagerAdapter";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		76CAA1A91A0FB0A20065D6F4 /* Build configuration list for PBXProject "PagerAdapter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76CAA1CF1A0FB0A20065D6F4 /* Debug */,
+				76CAA1D01A0FB0A20065D6F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76CAA1D11A0FB0A20065D6F4 /* Build configuration list for PBXNativeTarget "PagerAdapter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76CAA1D21A0FB0A20065D6F4 /* Debug */,
+				76CAA1D31A0FB0A20065D6F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		76CAA1D41A0FB0A20065D6F4 /* Build configuration list for PBXNativeTarget "PagerAdapterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76CAA1D51A0FB0A20065D6F4 /* Debug */,
+				76CAA1D61A0FB0A20065D6F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 76CAA1A61A0FB0A20065D6F4 /* Project object */;
+}
